@@ -110,10 +110,10 @@ exe 'hi! ColorColumn'   .s:fg_none         .s:bg_cursor      .s:fmt_none
 exe 'hi! CursorColumn'  .s:fg_none         .s:bg_cursor      .s:fmt_none
 exe 'hi! CursorLine'    .s:fg_none         .s:bg_cursor      .s:fmt_none
 exe 'hi! Directory'     .s:fg_blue         .s:bg_none        .s:fmt_none
-exe 'hi! DiffAdd'       .s:fg_lightgray         .s:bg_diffadd     .s:fmt_none
-exe 'hi! DiffChange'    .s:fg_lightgray         .s:bg_diffchange  .s:fmt_none
+exe 'hi! DiffAdd'       .s:fg_lightgray    .s:bg_diffadd     .s:fmt_none
+exe 'hi! DiffChange'    .s:fg_lightgray    .s:bg_diffchange  .s:fmt_none
 exe 'hi! DiffDelete'    .s:fg_diffdelete   .s:bg_diffdelete  .s:fmt_none
-exe 'hi! DiffText'      .s:fg_lightgray         .s:bg_difftext    .s:fmt_none
+exe 'hi! DiffText'      .s:fg_lightgray    .s:bg_difftext    .s:fmt_none
 exe 'hi! ErrorMsg'      .s:fg_red          .s:bg_none        .s:fmt_bold
 exe 'hi! VertSplit'     .s:fg_none         .s:bg_black       .s:fmt_none
 exe 'hi! Folded'        .s:fg_fold         .s:bg_fold        .s:fmt_none
