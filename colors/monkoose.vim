@@ -34,6 +34,7 @@ exe "let s:fg_example      = ' guifg=#7d998a'"
 exe "let s:fg_pmenu        = ' guifg=#8c8c8c'"
 
 exe "let s:bg_none         = ' guibg=none'"
+exe "let s:bg_normal       = ' guibg=#181818'"
 exe "let s:bg_black        = ' guibg=#121212'"
 exe "let s:bg_cursor       = ' guibg=#242424'"
 exe "let s:bg_error        = ' guibg=#611818'"
@@ -149,7 +150,7 @@ exe 'hi! Visual'        .s:fg_none         .s:bg_selection   .s:fmt_none
 exe 'hi! WarningMsg'    .s:fg_orange       .s:bg_none        .s:fmt_none
 exe 'hi! WildMenu'      .s:fg_purple       .s:bg_black       .s:fmt_none
 
-exe 'hi! Normal'        .s:fg_normal       .s:bg_none        .s:fmt_none
+exe 'hi! Normal'        .s:fg_normal       .s:bg_normal      .s:fmt_none
 
 " Quickfix window highlighting
 exe 'hi! qfLineNr'      .s:fg_yellow       .s:bg_none        .s:fmt_none
