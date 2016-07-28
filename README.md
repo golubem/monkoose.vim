@@ -41,4 +41,4 @@ Additional information
 ---------
 
 1. Typeface from screenshots is [Input](http://input.fontbureau.com/)
-2. For now this color scheme configured only for python development(Python, Django templates, HTML, CSS, JavaScript)
+2. For now this color scheme configured only for python development(Python, Django templates, HTML, CSS, JavaScript). It works with other languages, but only with default highlights, which can be not optimal.
