@@ -36,3 +36,8 @@ Screenshots
 ### Error
 
 ![Screenshot Error](http://i.imgur.com/kGKXXtZ.png)
+
+Additional information
+---------
+
+Typeface from screenshots is [Input](http://input.fontbureau.com/)
