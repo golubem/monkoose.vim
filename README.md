@@ -1,5 +1,13 @@
 # monkoose.vim
 
+Dark color scheme for vim editor inspired by monokai theme, but with different colors.
+Actually this scheme works only in gvim or neovim(in terminals with 24-bit true colour support).
+
+Add this line to your init.vim(neovim config file)
+```
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+```
+
 Screenshots
 -----------
 
