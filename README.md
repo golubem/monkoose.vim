@@ -40,4 +40,5 @@ Screenshots
 Additional information
 ---------
 
-Typeface from screenshots is [Input](http://input.fontbureau.com/)
+1. Typeface from screenshots is [Input](http://input.fontbureau.com/)
+2. For now this color scheme configured only for python development(Python, Django templates, HTML, CSS, JavaScript)
