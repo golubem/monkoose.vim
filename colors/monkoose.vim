@@ -13,6 +13,7 @@ endif
 " ColorPallete: "{{{
 " ----------------------------------------------------------------------------
 exe "let s:fg_none         = ' guifg=none'"
+exe "let s:fg_normal       = ' guifg=#bfbcb5'"
 exe "let s:fg_black        = ' guifg=#121212'"
 exe "let s:fg_red          = ' guifg=#e03650'"
 exe "let s:fg_green        = ' guifg=#4d9c38'"
@@ -148,7 +149,7 @@ exe 'hi! Visual'        .s:fg_none         .s:bg_selection   .s:fmt_none
 exe 'hi! WarningMsg'    .s:fg_orange       .s:bg_none        .s:fmt_none
 exe 'hi! WildMenu'      .s:fg_purple       .s:bg_black       .s:fmt_none
 
-exe 'hi! Normal'        .s:fg_none         .s:bg_none        .s:fmt_none
+exe 'hi! Normal'        .s:fg_normal       .s:bg_none        .s:fmt_none
 
 " Quickfix window highlighting
 exe 'hi! qfLineNr'      .s:fg_yellow       .s:bg_none        .s:fmt_none
