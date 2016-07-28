@@ -8,6 +8,12 @@ Add this line to your init.vim(neovim config file)
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 ```
 
+And this lines to your .vimrc or init.vim
+```
+set background=dark
+colorscheme monkoose
+```
+
 Screenshots
 -----------
 
