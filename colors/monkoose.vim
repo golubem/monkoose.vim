@@ -168,6 +168,20 @@ exe 'hi! helpCommand'         .s:fg_purple   .s:bg_none      .s:fmt_none
 exe 'hi! helpHyperTextJump'   .s:fg_blue     .s:bg_none      .s:fmt_undr
 exe 'hi! helpHyperTextEntry'  .s:fg_green    .s:bg_none      .s:fmt_none
 "}}}
+" Python Syntax Highlighting: "{{{
+" ----------------------------------------------------------------------------
+hi link  pythonClass          Function
+hi link  pythonBuiltinType    Normal
+hi link  pythonCoding         Comment
+hi link  pythonRun            Comment
+hi link  pythonRepeat         pythonStatement
+hi link  pythonConditional    pythonStatement
+hi link  pythonException      pythonStatement
+hi link  pythonStrFormat      Constant
+exe 'hi! pythonDefClass'      .s:fg_blue         .s:bg_none        .s:fmt_ital
+exe 'hi! pythonStatement'     .s:fg_red          .s:bg_none        .s:fmt_none
+exe 'hi! pythonSelf'          .s:fg_orange       .s:bg_none        .s:fmt_ital
+"}}}
 " HTML Syntax Highlighting: "{{{
 " ---------------------------------------------------------------------
 hi link htmlTag         Normal
@@ -184,24 +198,16 @@ exe 'hi! djangoStatement' .s:fg_purple     .s:bg_none        .s:fmt_none
 exe 'hi! cssIdentifier'   .s:fg_orange     .s:bg_none        .s:fmt_none
 exe 'hi! cssProp'         .s:fg_blue       .s:bg_none        .s:fmt_ital
 "}}}
+" Markdown Syntax Highlighting: "{{{
+" ---------------------------------------------------------------------
+exe 'hi! mkdListItem'     .s:fg_green   .s:bg_none     .s:fmt_none
+exe 'hi! mkdURL'          .s:fg_blue    .s:bg_none     .s:fmt_undr
+exe 'hi! mkdLinkDef'      .s:fg_purple  .s:bg_none     .s:fmt_none
+"}}}
 " Syntastic Syntax Highlighting: "{{{
 " ----------------------------------------------------------------------------
 exe 'hi! SyntasticErrorSign'   .s:fg_red      .s:bg_black    .s:fmt_bold
 exe 'hi! SyntasticWarningSign' .s:fg_orange   .s:bg_black    .s:fmt_bold
-"}}}
-" Python Syntax Highlighting: "{{{
-" ----------------------------------------------------------------------------
-hi link  pythonClass          Function
-hi link  pythonBuiltinType    Normal
-hi link  pythonCoding         Comment
-hi link  pythonRun            Comment
-hi link  pythonRepeat         pythonStatement
-hi link  pythonConditional    pythonStatement
-hi link  pythonException      pythonStatement
-hi link  pythonStrFormat      Constant
-exe 'hi! pythonDefClass'      .s:fg_blue         .s:bg_none        .s:fmt_ital
-exe 'hi! pythonStatement'     .s:fg_red          .s:bg_none        .s:fmt_none
-exe 'hi! pythonSelf'          .s:fg_orange       .s:bg_none        .s:fmt_ital
 "}}}
 " Jedi-Vim Syntax Highlighting: "{{{
 " ----------------------------------------------------------------------------
