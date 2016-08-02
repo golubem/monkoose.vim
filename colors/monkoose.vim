@@ -232,6 +232,11 @@ exe 'hi! NERDTreeDirSlash'  .s:fg_lightgray  .s:bg_none      .s:fmt_bold
 exe 'hi! NERDTreeDir'       .s:fg_blue       .s:bg_none      .s:fmt_bold
 exe 'hi! NERDTreeCWD'       .s:fg_purple     .s:bg_none      .s:fmt_bold
 "}}}
+" Tagbar Highlighting: "{{{
+" ----------------------------------------------------------------------------
+hi link  TagbarType   Statement
+hi link  TagbarScope  Function
+"}}}
 " License: "{{{
 " ----------------------------------------------------------------------------
 " Copyright (c) 2016 monkoose
